@@ -39,7 +39,7 @@ public class MainActivity extends ActionBarActivity {
 		if (id == R.id.change_city) {
 			showInputDialog();
 		}
-		return false;
+		return true;
 	}
 	
 	private void showInputDialog (){
