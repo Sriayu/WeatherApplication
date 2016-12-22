@@ -65,4 +65,11 @@ public class MainActivity extends ActionBarActivity {
 		wf.changeCity(city);
 		new CityPreference(this).setCity(city);
 	}
+
+	public void changeCityConflict2 (String city){
+		WeatherFragment wf = (WeatherFragment) getSupportFragmentManager()
+				.findFragmentById(R.id.container);
+		wf.changeCity(city);
+		new CityPreference(this).setCity(city);
+	}
 }
